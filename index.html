@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsh Pal Singh | Frontend Developer</title>
+  <!-- Devicon CDN for technology icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Custom Styles (optional) -->
+  <style>
+    /* Custom scrollbar styling (dark theme) */
+    body::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+    body::-webkit-scrollbar-track {
+      background: #1f2937;
+    }
+    body::-webkit-scrollbar-thumb {
+      background-color: #4b5563;
+      border-radius: 0.25rem;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+  <!-- Navigation -->
+  <nav class="fixed w-full bg-gray-900 bg-opacity-90 backdrop-blur-md z-50">
+    <div class="max-w-5xl mx-auto flex justify-between items-center p-4">
+      <div class="text-2xl font-bold">Harsh Pal Singh</div>
+      <div class="hidden md:flex space-x-6">
+        <a href="#hero" class="hover:text-white">Home</a>
+        <a href="#about" class="hover:text-white">About</a>
+        <a href="#skills" class="hover:text-white">Skills</a>
+        <a href="#experience" class="hover:text-white">Experience</a>
+        <a href="#projects" class="hover:text-white">Projects</a>
+        <a href="#contact" class="hover:text-white">Contact</a>
+      </div>
+      <!-- Mobile menu button -->
+      <button id="menu-btn" class="md:hidden text-gray-300 focus:outline-none">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="menu" class="hidden md:hidden bg-gray-800 bg-opacity-95">
+      <a href="#hero" class="block px-4 py-2 hover:text-white">Home</a>
+      <a href="#about" class="block px-4 py-2 hover:text-white">About</a>
+      <a href="#skills" class="block px-4 py-2 hover:text-white">Skills</a>
+      <a href="#experience" class="block px-4 py-2 hover:text-white">Experience</a>
+      <a href="#projects" class="block px-4 py-2 hover:text-white">Projects</a>
+      <a href="#testimonials" class="block px-4 py-2 hover:text-white">Testimonials</a>
+      <a href="#contact" class="block px-4 py-2 hover:text-white">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="min-h-screen flex flex-col justify-center items-center text-center px-4 reveal">
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">Harsh Pal Singh</h1>
+    <h2 class="text-2xl md:text-3xl text-gray-300 mb-4">Frontend Developer</h2>
+    <p class="max-w-2xl text-gray-400 mb-6">
+      Passionate Frontend Developer crafting responsive, user-centric web interfaces using HTML, CSS, and JavaScript. I transform design concepts into clean, maintainable code for seamless user experiences.
+    </p>
+    <div>
+      <a href="Harsh_Pal_Singh.pdf" download class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition mx-2">
+  Download Resume
+</a>
+      <a href="#contact" class="px-6 py-3 bg-green-600 text-white rounded-full shadow-lg hover:bg-green-700 transition mx-2">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-4 reveal">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl font-bold mb-6 text-center">About Me</h2>
+      <p class="text-gray-300 mb-4">
+        I am a Frontend Developer with expertise in crafting responsive and user-centric web interfaces. Skilled in transforming design concepts into clean, maintainable code and ensuring seamless cross-browser compatibility.
+      </p>
+      <p class="text-gray-300">
+        Experienced in modern frontend workflows and component-based development. I focus on improving user experience through efficient DOM manipulation and event handling. Familiar with React.js fundamentals including state management, hooks, and reusable components for scalable UI solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+ <section id="skills" class="py-20 px-4 bg-gray-800 reveal">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-4xl font-bold mb-6 text-center">Skills</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
+      
+      <div class="flex flex-col items-center">
+        <i class="devicon-html5-plain colored text-4xl"></i>
+        <span>HTML</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-css3-plain colored text-4xl"></i>
+        <span>CSS</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-javascript-plain colored text-4xl"></i>
+        <span>JavaScript</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-react-original colored text-4xl"></i>
+        <span>ReactJS</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-nodejs-plain colored text-4xl"></i>
+        <span>Node.js</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-bootstrap-plain colored text-4xl"></i>
+        <span>Bootstrap</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-tailwindcss-plain colored text-4xl"></i>
+        <span>Tailwind CSS</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-mysql-plain colored text-4xl"></i>
+        <span>MySQL</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-git-plain colored text-4xl"></i>
+        <span>Git</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-github-original colored text-4xl"></i>
+        <span>GitHub</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-amazonwebservices-original colored text-4xl"></i>
+        <span>AWS</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="devicon-googlecloud-plain colored text-4xl"></i>
+        <span>GCP</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="fas fa-database text-blue-400 text-4xl"></i>
+        <span>DBMS</span>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <i class="fas fa-chart-bar text-green-400 text-4xl"></i>
+        <span>Power BI</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-20 px-4 reveal">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl font-bold mb-6 text-center">Experience</h2>
+      <div class="bg-gray-800 rounded-lg p-6">
+        <h3 class="text-2xl font-semibold">SDE Intern at AccioJob Pvt Ltd</h3>
+        <p class="text-gray-400 mb-4">Oct 2024 &ndash; Mar 2025</p>
+        <ul class="list-disc list-inside text-gray-300">
+          <li>Developed responsive and interactive user interfaces using React.js, Bootstrap, HTML, CSS, and JavaScript.</li>
+          <li>Built reusable React components and optimized performance for a seamless user experience, leveraging props, hooks, and state management.</li>
+          <li>Collaborated with the team using Git and GitHub for version control and efficient workflow.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-4 bg-gray-800 reveal">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold mb-6 text-center">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- EventScape -->
+        <div class="bg-gray-900 rounded-lg p-6">
+          <h3 class="text-2xl font-semibold mb-2">EventScape</h3>
+          <p class="italic text-sm text-gray-400">JSP, Spring Boot, MySQL, JavaScript, CSS, Twilio, OpenPDF</p>
+          <ul class="list-disc list-inside text-gray-300 mt-2">
+            <li>Collaborated on a web-based platform where event management companies can register and showcase portfolios to customers.</li>
+            <li>Worked on backend development using Java and MySQL for smooth data handling and efficient database management.</li>
+            <li>Integrated Twilio for SMS notifications and OpenPDF for generating invoices to streamline booking confirmations.</li>
+            <li>Implemented REST APIs in Spring Boot for seamless frontend-backend communication.</li>
+            <li>Enhanced user experience with AJAX-based dynamic content updates and optimized database queries for better performance.</li>
+          </ul>
+        </div>
+        <!-- BlinkIt Clone -->
+        <div class="bg-gray-900 rounded-lg p-6">
+          <h3 class="text-2xl font-semibold mb-2">BlinkIt Clone</h3>
+          <p class="italic text-sm text-gray-400">Bootstrap, HTML, CSS, JavaScript</p>
+          <ul class="list-disc list-inside text-gray-300 mt-2">
+            <li>Developed the complete frontend featuring dynamic product listings and cart functionalities.</li>
+            <li>Replicated essential UI components to demonstrate understanding of component-based design.</li>
+            <li>Used Bootstrap for rapid development, enabling mobile responsiveness and a modern, clean UI.</li>
+          </ul>
+        </div>
+        <!-- YouTube Clone -->
+        <div class="bg-gray-900 rounded-lg p-6">
+          <h3 class="text-2xl font-semibold mb-2">YouTube Clone</h3>
+          <p class="italic text-sm text-gray-400">HTML, CSS, JavaScript</p>
+          <ul class="list-disc list-inside text-gray-300 mt-2">
+            <li>Developed a responsive YouTube clone with video listings, search bar, sidebar navigation, and dynamic recommendations.</li>
+            <li>Implemented a search feature to dynamically load relevant videos, simulating core platform functionality.</li>
+            <li>Focused on responsive design and consistent performance across all devices.</li>
+          </ul>
+        </div>
+        <!-- MegaScrap -->
+        <div class="bg-gray-900 rounded-lg p-6">
+          <h3 class="text-2xl font-semibold mb-2">MegaScrap</h3>
+          <p class="italic text-sm text-gray-400">HTML, CSS, JavaScript, Flask, MySQL</p>
+          <ul class="list-disc list-inside text-gray-300 mt-2">
+            <li>Built a scrap buying and selling platform with distinct buyer and seller functionalities, including ad posting and product listings.</li>
+            <li>Designed an admin dashboard to manage ads and users, featuring a dynamic image carousel and product detail modals for better visibility.</li>
+            <li>Integrated Google Maps API for geolocation and place autocomplete, improving user experience for location-based searches.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-4 bg-gray-800 reveal">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl font-bold mb-6 text-center">Contact Me</h2>
+      <form class="space-y-4">
+        <div>
+          <label class="block text-gray-300">Name</label>
+          <input type="text" class="w-full px-4 py-2 rounded bg-gray-700 text-gray-100" placeholder="Your Name" required />
+        </div>
+        <div>
+          <label class="block text-gray-300">Email</label>
+          <input type="email" class="w-full px-4 py-2 rounded bg-gray-700 text-gray-100" placeholder="Your Email" required />
+        </div>
+        <div>
+          <label class="block text-gray-300">Message</label>
+          <textarea class="w-full px-4 py-2 rounded bg-gray-700 text-gray-100" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <div>
+          <button type="submit" class="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-900">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="flex justify-center space-x-6 mb-4">
+        <a href="https://github.com/harshpalsingh" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/harshpalsingh" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="mailto:harshpalsingh565@gmail.com" class="text-gray-400 hover:text-white"><i class="fas fa-envelope fa-2x"></i></a>
+      </div>
+      <p class="text-gray-600">&copy; 2025 Harsh Pal Singh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
